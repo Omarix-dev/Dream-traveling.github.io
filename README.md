@@ -126,3 +126,18 @@
     window.location.href = offerUrl;
   });
 </script>
+<div style="text-align: center; margin: 30px 0;">
+  <a href="https://rb.gy/5v3cpa" target="_blank" style="text-decoration: none;">
+    <button style="
+      background-color: #28a745;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    ">
+      Claim Your Free Getaway
+    </button>
+  </a>
+</div>

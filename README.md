@@ -110,3 +110,19 @@
     </button>
   </a>
 </div>
+<script>
+  // Form handler
+  document.getElementById("entry-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    // Get email and optionally zip code (if you want to pass it)
+    const email = document.getElementById("email").value;
+    const zip = document.getElementById("zip").value;
+
+    // URL of the AdBlueMedia offer
+    const offerUrl = `https://rb.gy/5v3cpa?email=${encodeURIComponent(email)}&zip=${encodeURIComponent(zip)}`;
+
+    // Redirect the user to the offer page
+    window.location.href = offerUrl;
+  });
+</script>

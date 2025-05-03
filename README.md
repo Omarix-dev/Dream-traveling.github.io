@@ -1,24 +1,156 @@
-<div class="entry-form">
-    <h2>Enter Now - Just Your Email Required!</h2>
-    <form id="sweepstakes-form" action="https://rb.gy/5v3cpa" method="POST">
-        <!-- Hidden Fields Required by AdBluemedia -->
-        <input type="hidden" name="offer_id" value="1511">
-        <input type="hidden" name="aff_id" value="525306">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Win a Caribbean Getaway for Two | The American Sweepstakes</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background: linear-gradient(135deg, #0066cc, #00ccff);
+            color: white;
+            border-radius: 5px 5px 0 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .prize-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .entry-form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #e65c00;
+        }
+        .prize-details {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #e6f7ff;
+            border-left: 4px solid #0066cc;
+        }
+        .terms {
+            font-size: 12px;
+            color: #666;
+            margin-top: 20px;
+        }
+        .countdown {
+            text-align: center;
+            font-size: 18px;
+            color: #ff6600;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Win a Dream Caribbean Getaway for Two!</h1>
+            <p>Enter for your chance to win an all-expenses-paid vacation!</p>
+        </header>
         
-        <!-- Visible Form Fields -->
-        <div class="form-group">
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+        <img src="https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Caribbean Beach Resort" class="prize-image">
+        
+        <div class="countdown">
+            Time remaining to enter: <span id="timer">15:47:51</span>
         </div>
-        <div class="form-group">
-            <label for="zip">Zip Code (Optional):</label>
-            <input type="text" id="zip" name="zip" placeholder="Enter your zip code">
+        
+        <div class="prize-details">
+            <h2>Your Prize Includes:</h2>
+            <ul>
+                <li>7 nights at a luxury 5-star Caribbean resort</li>
+                <li>Round-trip airfare for two</li>
+                <li>All meals and drinks included</li>
+                <li>Private beach access</li>
+                <li>Spa credits ($500 value)</li>
+                <li>Total prize value: $8,500</li>
+            </ul>
         </div>
-        <button type="submit">ENTER TO WIN NOW!</button>
-    </form>
-    <p class="terms">
-        By entering, you agree to receive promotional offers from our partners. 
-        Must be 18+ to enter. No purchase necessary. Winner selected at random. 
-        See official rules for details. Offer ends soon.
-    </p>
-</div>
+        
+        <div class="entry-form">
+            <h2>Enter Now - Just Your Email Required!</h2>
+            <form id="sweepstakes-form">
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                </div>
+                <div class="form-group">
+                    <label for="zip">Zip Code (Optional):</label>
+                    <input type="text" id="zip" name="zip" placeholder="Enter your zip code">
+                </div>
+                <button type="submit">ENTER TO WIN NOW!</button>
+            </form>
+            <p class="terms">
+                By entering, you agree to receive promotional offers from our partners. 
+                Must be 18+ to enter. No purchase necessary. Winner selected at random. 
+                See official rules for details. Offer ends soon.
+            </p>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <p><strong>Limited Time Offer - Enter Today!</strong></p>
+            <p>Over 250,000 entries so far - don't miss your chance!</p>
+        </div>
+    </div>
+    
+    <script>
+        // Simple form submission handler
+        document.getElementById('sweepstakes-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for entering! Good luck!');
+            // Here you would typically send the data to your offer
+        });
+    </script>
+</body>
+</html>

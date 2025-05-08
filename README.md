@@ -1,44 +1,112 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Unlimited Movies — No Ads, All Subtitles</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get Your Free Credit Score & $10</title>
   <style>
     body {
-      font-family: 'Inter', sans-serif;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fb;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .hero {
+      background: #0072ce;
+      color: white;
+      padding: 3rem 2rem;
+      border-radius: 10px;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+
+    .cta-button {
+      background: #fbc02d;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-top: 2rem;
+      text-align: left;
+    }
+
+    .feature {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
-<body class="bg-gray-900 text-white">
+<body>
+  <div class="container">
+    <div class="hero">
+      <h1>Get Your FREE Credit Score & $10</h1>
+      <p>Sign up now, check your credit score, and receive a $10 bonus — 100% free and secure!</p>
+      <a href="https://your-cpa-tracking-link.com" class="cta-button" target="_blank">Check My Score & Get $10</a>
+    </div>
 
-  <div class="relative h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('https://images.unsplash.com/photo-1598899134739-24c46f58d4d7?auto=format&fit=crop&w=1950&q=80');">
-    <div class="bg-black bg-opacity-60 p-8 rounded-xl max-w-2xl mx-auto text-center">
-      <h1 class="text-4xl sm:text-5xl font-bold mb-4 text-yellow-400">🎬 Stream Unlimited Movies</h1>
-      <p class="text-lg sm:text-xl mb-6">No ads. All subtitles. Full HD quality. Get instant access now!</p>
-      <button onclick="_Ri()" class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-lg text-lg transition-all duration-300">
-        🔓 Unlock Free Access
-      </button>
-      <p class="text-sm text-gray-300 mt-3">Complete 1 offer to access the streaming site.</p>
+    <div class="features">
+      <div class="feature">
+        <h3>📊 Real-Time Credit Score</h3>
+        <p>Get instant access to your credit score and learn how to improve it.</p>
+      </div>
+      <div class="feature">
+        <h3>💰 Earn $10 Bonus</h3>
+        <p>Receive $10 just for signing up and checking your score. No cost, no strings.</p>
+      </div>
+      <div class="feature">
+        <h3>🔒 Secure & Private</h3>
+        <p>Your personal info is safe. No credit card required to join.</p>
+      </div>
+      <div class="feature">
+        <h3>📈 Weekly Score Updates</h3>
+        <p>Stay informed with free credit monitoring and regular updates.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>© 2025 | This page is for promotional use only. Not affiliated with SoFi. Terms apply.</p>
     </div>
   </div>
-
-  <!-- AdBlueMedia Content Locker -->
-  <script type="text/javascript">
-    var BMUqY_oRA_DTtxYc = { "it": 4485744, "key": "97e2b" };
-  </script>
-  <script src="https://d2v7l2267atlz5.cloudfront.net/675fa44.js"></script>
-
 </body>
-</html><script type="text/javascript">
-  var BMUqY_oRA_DTtxYc = {
-    "it": 4485744,
-    "key": "97e2b",
-    "redirect": true
-  };
-</script>
-<script src="https://d2v7l2267atlz5.cloudfront.net/675fa44.js"></script>
-
+</html>

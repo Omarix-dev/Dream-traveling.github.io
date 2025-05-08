@@ -1,244 +1,196 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Get Your Free Credit Score & $10</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Baseball 9 NOW - Get Unlimited Stars & Cash!</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #2563eb;
-      --primary-dark: #1d4ed8;
-      --secondary: #f59e0b;
-      --secondary-dark: #d97706;
-      --light: #f8fafc;
-      --dark: #1e293b;
-      --gray: #64748b;
-      --success: #10b981;
+      --primary: #FF6B00; /* Baseball orange */
+      --secondary: #005A9C; /* MLB blue */
+      --accent: #FFD700; /* Gold for rewards */
     }
     
     body {
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(to bottom, #f5f5f5 0%, #e1e1e1 100%);
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #f0f4ff 0%, #f8fafc 100%);
-      color: var(--dark);
-      line-height: 1.6;
+      color: #333;
     }
-
+    
     .container {
-      max-width: 1000px;
+      max-width: 800px;
       margin: 0 auto;
-      padding: 2rem;
+      padding: 20px;
     }
-
-    .hero {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    
+    header {
+      background: var(--secondary);
       color: white;
-      padding: 4rem 3rem;
-      border-radius: 16px;
+      padding: 15px 0;
       text-align: center;
-      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-      margin-bottom: 3rem;
-      position: relative;
-      overflow: hidden;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
-
-    .hero::before {
-      content: "";
-      position: absolute;
-      top: -50px;
-      right: -50px;
-      width: 200px;
-      height: 200px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 50%;
-    }
-
-    .hero::after {
-      content: "";
-      position: absolute;
-      bottom: -80px;
-      left: -80px;
-      width: 300px;
-      height: 300px;
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 50%;
-    }
-
-    .hero h1 {
+    
+    .logo {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
       font-size: 2.5rem;
-      margin-bottom: 1.5rem;
-      font-weight: 700;
-      line-height: 1.2;
-      position: relative;
-      z-index: 1;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      margin-bottom: 2.5rem;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
-      opacity: 0.9;
-      position: relative;
-      z-index: 1;
-    }
-
-    .cta-button {
-      background: linear-gradient(to right, var(--secondary) 0%, var(--secondary-dark) 100%);
-      color: #000;
-      font-weight: 600;
-      border: none;
-      padding: 1rem 2.5rem;
-      font-size: 1.1rem;
-      border-radius: 50px;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      transition: all 0.3s ease;
-      position: relative;
-      z-index: 1;
-    }
-
-    .cta-button:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    }
-
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1.5rem;
-      margin: 3rem 0;
-    }
-
-    .feature {
-      background: white;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      border-top: 4px solid var(--primary);
-    }
-
-    .feature:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-    }
-
-    .feature h3 {
-      font-size: 1.25rem;
-      margin-bottom: 1rem;
-      color: var(--primary);
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .feature p {
-      color: var(--gray);
       margin: 0;
     }
-
-    .footer {
-      margin-top: 4rem;
-      padding-top: 2rem;
-      border-top: 1px solid #e2e8f0;
-      font-size: 0.9rem;
-      color: var(--gray);
+    
+    .hero {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      margin: 30px 0;
       text-align: center;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
     }
-
-    .badge {
-      display: inline-block;
-      background: var(--success);
+    
+    .game-screenshot {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      margin: 20px auto;
+      display: block;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    
+    .cta-button {
+      background: var(--primary);
       color: white;
-      padding: 0.3rem 0.8rem;
+      font-weight: 700;
+      font-size: 1.2rem;
+      padding: 15px 30px;
+      border: none;
       border-radius: 50px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      margin-bottom: 1rem;
+      cursor: pointer;
+      display: inline-block;
+      margin: 20px 0;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 0 #cc5800;
     }
-
-    @media (max-width: 768px) {
-      .hero {
-        padding: 3rem 1.5rem;
-      }
-      
-      .hero h1 {
-        font-size: 2rem;
-      }
-      
-      .hero p {
-        font-size: 1rem;
-      }
+    
+    .cta-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 0 #cc5800;
     }
-
-    @media (max-width: 480px) {
-      .container {
-        padding: 1rem;
-      }
-      
-      .hero {
-        padding: 2rem 1rem;
-      }
-      
-      .cta-button {
-        width: 100%;
-        text-align: center;
-      }
+    
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+    
+    .feature {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    }
+    
+    .feature h3 {
+      color: var(--secondary);
+    }
+    
+    .testimonial {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      position: relative;
+    }
+    
+    .testimonial:before {
+      content: """;
+      font-size: 60px;
+      color: var(--primary);
+      position: absolute;
+      top: -10px;
+      left: 10px;
+    }
+    
+    .urgency-banner {
+      background: var(--accent);
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      margin: 20px 0;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1 class="logo">BASEBALL 9</h1>
+    <p>The #1 Mobile Baseball Game - Download Now!</p>
+  </header>
+  
   <div class="container">
     <div class="hero">
-      <span class="badge">LIMITED TIME OFFER</span>
-      <h1>Get Your FREE Credit Score & $10 Bonus</h1>
-      <p>Sign up now to check your credit score instantly and receive a $10 bonus — 100% free, secure, and no credit card required!</p>
-      <button class="cta-button" onclick="_KB()">Check My Score & Get $10 →</button>
+      <h2>⚡ Unlimited Stars & Cash ⚡</h2>
+      <p>Get the <strong>OFFICIAL</strong> modded version of Baseball 9 with:</p>
+      <img src="https://i.imgur.com/JK8b4Qj.jpg" alt="Baseball 9 Gameplay" class="game-screenshot">
+      
+      <div class="urgency-banner">
+        🚨 LIMITED TIME: First 500 downloads get 10,000 FREE stars! 🚨
+      </div>
+      
+      <button class="cta-button" onclick="openContentLocker()">👇 DOWNLOAD NOW 👇</button>
+      
+      <p><small>Works on Android & iOS | No root/jailbreak needed</small></p>
     </div>
-
+    
     <div class="features">
       <div class="feature">
-        <h3>📊 Real-Time Credit Score</h3>
-        <p>Get instant access to your credit score and receive personalized tips on how to improve it over time.</p>
+        <h3>⭐ Unlimited Stars</h3>
+        <p>Unlock all premium players and upgrades instantly</p>
       </div>
       <div class="feature">
-        <h3>💰 Earn $10 Cash Bonus</h3>
-        <p>Receive $10 directly to your account just for signing up and checking your score. No hidden fees.</p>
+        <h3>💵 Max Cash</h3>
+        <p>Never worry about in-game currency again</p>
       </div>
       <div class="feature">
-        <h3>🔒 Bank-Level Security</h3>
-        <p>Your personal information is protected with 256-bit encryption. We never sell your data.</p>
+        <h3>🔓 All Players Unlocked</h3>
+        <p>Access legendary players from day one</p>
       </div>
       <div class="feature">
-        <h3>📈 Credit Monitoring</h3>
-        <p>Get weekly updates on your credit score and alerts about important changes to your report.</p>
-      </div>
-      <div class="feature">
-        <h3>💳 No Credit Card Needed</h3>
-        <p>Sign up completely free with no payment information required to get started.</p>
-      </div>
-      <div class="feature">
-        <h3>📱 Mobile Friendly</h3>
-        <p>Access your credit information anytime, anywhere through our mobile-friendly platform.</p>
+        <h3>🛡️ Anti-Ban Protection</h3>
+        <p>Play safely without risk of getting banned</p>
       </div>
     </div>
-
-    <div class="footer">
-      <p>© 2025 CreditScore Plus. All rights reserved. | This page is for promotional use only. Not affiliated with SoFi. Terms apply.</p>
+    
+    <div class="testimonial">
+      <p>"I got 50,000 stars immediately after downloading! This is insane - now I have all the best players!"</p>
+      <p>- Jake R., ⭐⭐⭐⭐⭐</p>
+    </div>
+    
+    <div style="text-align: center; margin: 40px 0;">
+      <button class="cta-button" onclick="openContentLocker()">🔥 GET BASEBALL 9 MOD NOW 🔥</button>
     </div>
   </div>
 
   <!-- Content Locker Script -->
-  <script type="text/javascript">
-    var PmhAG_Grp_JhPEDc={"it":4485744,"key":"97e2b"};
+  <script>
+    function openContentLocker() {
+      // Replace with your actual content locker script
+      var contentLockerScript = document.createElement('script');
+      contentLockerScript.src = 'https://your-content-locker-provider.com/script.js';
+      document.body.appendChild(contentLockerScript);
+      
+      // Fallback in case script fails
+      setTimeout(function() {
+        window.location.href = "YOUR_CONTENT_LOCKER_URL_HERE";
+      }, 1000);
+    }
   </script>
-  <script src="https://d2v7l2267atlz5.cloudfront.net/49076fe.js"></script>
 </body>
 </html>

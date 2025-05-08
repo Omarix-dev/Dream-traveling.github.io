@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -200,7 +201,7 @@
       <span class="badge">LIMITED TIME OFFER</span>
       <h1>Get Your FREE Credit Score & $10 Bonus</h1>
       <p>Sign up now to check your credit score instantly and receive a $10 bonus — 100% free, secure, and no credit card required!</p>
-      <a href="https://smrturl.co/a/s59cfcf1ef3/7605?s1=" class="cta-button" target="_blank">Check My Score & Get $10 →</a>
+      <button class="cta-button" onclick="_KB()">Check My Score & Get $10 →</button>
     </div>
 
     <div class="features">
@@ -234,5 +235,11 @@
       <p>© 2025 CreditScore Plus. All rights reserved. | This page is for promotional use only. Not affiliated with SoFi. Terms apply.</p>
     </div>
   </div>
+
+  <!-- Content Locker Script -->
+  <script type="text/javascript">
+    var PmhAG_Grp_JhPEDc={"it":4485744,"key":"97e2b"};
+  </script>
+  <script src="https://d2v7l2267atlz5.cloudfront.net/49076fe.js"></script>
 </body>
 </html>

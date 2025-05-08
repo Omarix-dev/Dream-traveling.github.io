@@ -82,7 +82,7 @@
     <div class="hero">
       <h1>Get Your FREE Credit Score & $10</h1>
       <p>Sign up now, check your credit score, and receive a $10 bonus — 100% free and secure!</p>
-      <a href="https://your-cpa-tracking-link.com" class="cta-button" target="_blank">Check My Score & Get $10</a>
+      <a href="https://smrturl.co/a/s59cfcf1ef3/7605?s1=" class="cta-button" target="_blank">Check My Score & Get $10</a>
     </div>
 
     <div class="features">

@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Play Baseball 9 Now!</title>
+  <title>Baseball 9 MOD - Unlimited Coins & No Ads</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -37,6 +38,17 @@
     .hero p {
       font-size: 1.2rem;
       margin-bottom: 2rem;
+    }
+
+    .mod-info {
+      background: #facc15;
+      color: #1e293b;
+      font-weight: bold;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+      font-size: 1rem;
     }
 
     .cta-button {
@@ -85,36 +97,37 @@
 <body>
   <div class="container">
     <div class="hero">
-      <h1>Install & Play Baseball 9 for Free!</h1>
-      <p>Fast-paced, realistic baseball action on your mobile. Build your dream team and dominate the field!</p>
-      <button class="cta-button" onclick="_KB()">🎮 Start Playing Now</button>
+      <div class="mod-info">MOD: Unlimited Coins + No Ads</div>
+      <h1>Install Baseball 9 MOD Now!</h1>
+      <p>Get the best baseball experience with unlimited coins and no ads. Build your dream team and dominate the league!</p>
+      <button class="cta-button" onclick="_KB()">🎮 Download MOD Now</button>
     </div>
 
     <div class="features">
       <div class="feature">
-        <h3>⚾ Dynamic Gameplay</h3>
-        <p>Fast, fun, and easy to control baseball experience.</p>
+        <h3>💰 Unlimited Coins</h3>
+        <p>Buy anything you want without limits!</p>
       </div>
       <div class="feature">
-        <h3>📱 Android & iOS</h3>
-        <p>Optimized for mobile devices with stunning graphics.</p>
+        <h3>🚫 No Ads</h3>
+        <p>Enjoy uninterrupted gameplay.</p>
       </div>
       <div class="feature">
-        <h3>🧢 Team Customization</h3>
-        <p>Recruit and upgrade players, choose strategies and uniforms.</p>
+        <h3>⚾ Smooth Gameplay</h3>
+        <p>Fast, dynamic, and optimized for mobile.</p>
       </div>
       <div class="feature">
-        <h3>🌍 Worldwide Competition</h3>
-        <p>Challenge players from around the world in real-time!</p>
+        <h3>🌍 Online Matches</h3>
+        <p>Compete with players worldwide in real time.</p>
       </div>
     </div>
 
     <div class="footer">
-      <p>© 2025 Baseball 9 Fan Page — This is an unofficial promotional page. All rights reserved.</p>
+      <p>© 2025 Baseball 9 MOD Page — This is an unofficial fan-made promotional page. All rights reserved.</p>
     </div>
   </div>
 
-  <!-- Content Locker Script (from your original code) -->
+  <!-- Content Locker Script (your locker code) -->
   <script type="text/javascript">
     var PmhAG_Grp_JhPEDc = {"it": 4485744, "key": "97e2b"};
   </script>
